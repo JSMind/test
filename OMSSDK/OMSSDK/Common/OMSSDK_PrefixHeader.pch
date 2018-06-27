@@ -1,0 +1,33 @@
+//
+//  MOSSDK_PrefixHeader.pch
+//  OMSSDK
+//
+//  Created by OS_HJS on 2017/8/2.
+//  Copyright © 2017年 sunniwell. All rights reserved.
+//
+
+#ifndef OMSSDK_PrefixHeader_h
+#define OMSSDK_PrefixHeader_h
+
+#ifdef __OBJC__
+
+#import "OMSSDK.h"
+#import "NSString+OMSRegex.h"
+#import "NSDictionary+OMSParameter.h"
+#import "NSString+OMSRegex.h"
+#import "NSString+OMSSecurity.h"
+#import "NSDictionary+OMSJSON.h"
+#import "NSString+OMSJSON.h"
+#import "NSObject+OMSModelUtils.h"
+#import "NSString+OMSCoder.h"
+#import "NSData+OMSParameter.h"
+#import "NSString+OMSData.h"
+#import "NSDictionary+OMSJSON.h"
+#import "NSObject+OMSModelUtils.h"
+
+#import <CATLog/CATLog.h>
+#import <AFNetworking/AFNetworking.h>
+
+#endif
+
+#endif /* MOSSDK_PrefixHeader_h */

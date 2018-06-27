@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CATLog (1.1.0)
+  - CocoaAsyncSocket (7.6.1)
+  - Reachability (3.2)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CATLog
+  - CocoaAsyncSocket
+  - Reachability
+  - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CATLog: 518918ae4f922e3b52152391e3e9e4bda591e4ea
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 4772bbe4deaf4a6e927898e41ebec2acf5c389ba
+
+COCOAPODS: 1.1.1

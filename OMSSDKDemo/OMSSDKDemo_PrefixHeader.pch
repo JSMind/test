@@ -1,0 +1,19 @@
+//
+//  OMSSDKDemo_PrefixHeader.pch
+//  OMSSDKDemo
+//
+//  Created by OS_HJS on 2017/8/10.
+//  Copyright © 2017年 sunniwell. All rights reserved.
+//
+
+#ifndef OMSSDKDemo_PrefixHeader_pch
+#define OMSSDKDemo_PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "OMSSDK.h"
+#import <AFNetworking/AFNetworking.h>
+#import <CATLog/CATLog.h>
+
+#endif
+#endif /* OMSSDKDemo_PrefixHeader_pch */

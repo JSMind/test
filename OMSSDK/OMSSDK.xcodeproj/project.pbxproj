@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07161A4F1F454640009E6613 /* OMSDeviceCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 07161A4A1F454640009E6613 /* OMSDeviceCenter.h */; };
+		07161A501F454640009E6613 /* OMSDeviceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07161A4B1F454640009E6613 /* OMSDeviceCenter.m */; };
+		07161A511F454640009E6613 /* OMSKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 07161A4C1F454640009E6613 /* OMSKeyChainStore.h */; };
+		07161A521F454640009E6613 /* OMSKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 07161A4D1F454640009E6613 /* OMSKeyChainStore.m */; };
+		0723E54E1F444E8600B4A4F0 /* libPods-OMSSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97328C06354B38FBC5807261 /* libPods-OMSSDK.a */; };
+		0723E5F41F44524E00B4A4F0 /* NSData+OMSParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5C01F44524E00B4A4F0 /* NSData+OMSParameter.m */; };
+		0723E5F61F44524E00B4A4F0 /* NSDictionary+OMSJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5C21F44524E00B4A4F0 /* NSDictionary+OMSJSON.m */; };
+		0723E5F81F44524E00B4A4F0 /* NSDictionary+OMSParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5C41F44524E00B4A4F0 /* NSDictionary+OMSParameter.m */; };
+		0723E5FA1F44524E00B4A4F0 /* NSObject+OMSModelUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5C61F44524E00B4A4F0 /* NSObject+OMSModelUtils.m */; };
+		0723E5FC1F44524E00B4A4F0 /* NSString+OMSCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5C81F44524E00B4A4F0 /* NSString+OMSCoder.m */; };
+		0723E5FE1F44524E00B4A4F0 /* NSString+OMSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5CA1F44524E00B4A4F0 /* NSString+OMSData.m */; };
+		0723E6001F44524E00B4A4F0 /* NSString+OMSJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5CC1F44524E00B4A4F0 /* NSString+OMSJSON.m */; };
+		0723E6021F44524E00B4A4F0 /* NSString+OMSRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5CE1F44524E00B4A4F0 /* NSString+OMSRegex.m */; };
+		0723E6041F44524E00B4A4F0 /* NSString+OMSSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5D01F44524E00B4A4F0 /* NSString+OMSSecurity.m */; };
+		0723E6091F44524E00B4A4F0 /* OMSSocketStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5D71F44524E00B4A4F0 /* OMSSocketStack.m */; };
+		0723E60B1F44524E00B4A4F0 /* OMSContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5DB1F44524E00B4A4F0 /* OMSContent.m */; };
+		0723E60D1F44524E00B4A4F0 /* OMSHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5DD1F44524E00B4A4F0 /* OMSHead.m */; };
+		0723E60F1F44524E00B4A4F0 /* OMSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5DF1F44524E00B4A4F0 /* OMSMessage.m */; };
+		0723E6111F44524E00B4A4F0 /* OMSServerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5E11F44524E00B4A4F0 /* OMSServerItem.m */; };
+		0723E6131F44524E00B4A4F0 /* OMSConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5E41F44524E00B4A4F0 /* OMSConfiguration.m */; };
+		0723E6151F44524E00B4A4F0 /* OMSHttpRequestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5E61F44524E00B4A4F0 /* OMSHttpRequestAPI.m */; };
+		0723E6171F44524E00B4A4F0 /* OMSResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5E81F44524E00B4A4F0 /* OMSResponseSerialization.m */; };
+		0723E6191F44524E00B4A4F0 /* OMSSocketApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5EA1F44524E00B4A4F0 /* OMSSocketApi.m */; };
+		0723E61C1F44524E00B4A4F0 /* OMSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5EE1F44524E00B4A4F0 /* OMSError.m */; };
+		0723E61E1F44524E00B4A4F0 /* OMSRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5F01F44524E00B4A4F0 /* OMSRequestTool.m */; };
+		0723E61F1F4457C900B4A4F0 /* OMSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0723E5EB1F44524E00B4A4F0 /* OMSSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0723E6201F4457DF00B4A4F0 /* OMSLogApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723E5BD1F44524E00B4A4F0 /* OMSLogApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0725D3A71F317FEE008A0B88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07161A4A1F454640009E6613 /* OMSDeviceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSDeviceCenter.h; sourceTree = "<group>"; };
+		07161A4B1F454640009E6613 /* OMSDeviceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSDeviceCenter.m; sourceTree = "<group>"; };
+		07161A4C1F454640009E6613 /* OMSKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSKeyChainStore.h; sourceTree = "<group>"; };
+		07161A4D1F454640009E6613 /* OMSKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSKeyChainStore.m; sourceTree = "<group>"; };
+		0723E5BC1F44524E00B4A4F0 /* OMSLogApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSLogApi.h; sourceTree = "<group>"; };
+		0723E5BD1F44524E00B4A4F0 /* OMSLogApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSLogApi.m; sourceTree = "<group>"; };
+		0723E5BF1F44524E00B4A4F0 /* NSData+OMSParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+OMSParameter.h"; sourceTree = "<group>"; };
+		0723E5C01F44524E00B4A4F0 /* NSData+OMSParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+OMSParameter.m"; sourceTree = "<group>"; };
+		0723E5C11F44524E00B4A4F0 /* NSDictionary+OMSJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+OMSJSON.h"; sourceTree = "<group>"; };
+		0723E5C21F44524E00B4A4F0 /* NSDictionary+OMSJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+OMSJSON.m"; sourceTree = "<group>"; };
+		0723E5C31F44524E00B4A4F0 /* NSDictionary+OMSParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+OMSParameter.h"; sourceTree = "<group>"; };
+		0723E5C41F44524E00B4A4F0 /* NSDictionary+OMSParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+OMSParameter.m"; sourceTree = "<group>"; };
+		0723E5C51F44524E00B4A4F0 /* NSObject+OMSModelUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OMSModelUtils.h"; sourceTree = "<group>"; };
+		0723E5C61F44524E00B4A4F0 /* NSObject+OMSModelUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OMSModelUtils.m"; sourceTree = "<group>"; };
+		0723E5C71F44524E00B4A4F0 /* NSString+OMSCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OMSCoder.h"; sourceTree = "<group>"; };
+		0723E5C81F44524E00B4A4F0 /* NSString+OMSCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OMSCoder.m"; sourceTree = "<group>"; };
+		0723E5C91F44524E00B4A4F0 /* NSString+OMSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OMSData.h"; sourceTree = "<group>"; };
+		0723E5CA1F44524E00B4A4F0 /* NSString+OMSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OMSData.m"; sourceTree = "<group>"; };
+		0723E5CB1F44524E00B4A4F0 /* NSString+OMSJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OMSJSON.h"; sourceTree = "<group>"; };
+		0723E5CC1F44524E00B4A4F0 /* NSString+OMSJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OMSJSON.m"; sourceTree = "<group>"; };
+		0723E5CD1F44524E00B4A4F0 /* NSString+OMSRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OMSRegex.h"; sourceTree = "<group>"; };
+		0723E5CE1F44524E00B4A4F0 /* NSString+OMSRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OMSRegex.m"; sourceTree = "<group>"; };
+		0723E5CF1F44524E00B4A4F0 /* NSString+OMSSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OMSSecurity.h"; sourceTree = "<group>"; };
+		0723E5D01F44524E00B4A4F0 /* NSString+OMSSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OMSSecurity.m"; sourceTree = "<group>"; };
+		0723E5D21F44524E00B4A4F0 /* OMSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSDefine.h; sourceTree = "<group>"; };
+		0723E5D31F44524E00B4A4F0 /* OMSMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSMacro.h; sourceTree = "<group>"; };
+		0723E5D41F44524E00B4A4F0 /* OMSSDK_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSSDK_PrefixHeader.pch; sourceTree = "<group>"; };
+		0723E5D61F44524E00B4A4F0 /* OMSSocketStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSSocketStack.h; sourceTree = "<group>"; };
+		0723E5D71F44524E00B4A4F0 /* OMSSocketStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSSocketStack.m; sourceTree = "<group>"; };
+		0723E5DA1F44524E00B4A4F0 /* OMSContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSContent.h; sourceTree = "<group>"; };
+		0723E5DB1F44524E00B4A4F0 /* OMSContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSContent.m; sourceTree = "<group>"; };
+		0723E5DC1F44524E00B4A4F0 /* OMSHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSHead.h; sourceTree = "<group>"; };
+		0723E5DD1F44524E00B4A4F0 /* OMSHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSHead.m; sourceTree = "<group>"; };
+		0723E5DE1F44524E00B4A4F0 /* OMSMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSMessage.h; sourceTree = "<group>"; };
+		0723E5DF1F44524E00B4A4F0 /* OMSMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSMessage.m; sourceTree = "<group>"; };
+		0723E5E01F44524E00B4A4F0 /* OMSServerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSServerItem.h; sourceTree = "<group>"; };
+		0723E5E11F44524E00B4A4F0 /* OMSServerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSServerItem.m; sourceTree = "<group>"; };
+		0723E5E31F44524E00B4A4F0 /* OMSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSConfiguration.h; sourceTree = "<group>"; };
+		0723E5E41F44524E00B4A4F0 /* OMSConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSConfiguration.m; sourceTree = "<group>"; };
+		0723E5E51F44524E00B4A4F0 /* OMSHttpRequestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSHttpRequestAPI.h; sourceTree = "<group>"; };
+		0723E5E61F44524E00B4A4F0 /* OMSHttpRequestAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSHttpRequestAPI.m; sourceTree = "<group>"; };
+		0723E5E71F44524E00B4A4F0 /* OMSResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSResponseSerialization.h; sourceTree = "<group>"; };
+		0723E5E81F44524E00B4A4F0 /* OMSResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSResponseSerialization.m; sourceTree = "<group>"; };
+		0723E5E91F44524E00B4A4F0 /* OMSSocketApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSSocketApi.h; sourceTree = "<group>"; };
+		0723E5EA1F44524E00B4A4F0 /* OMSSocketApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSSocketApi.m; sourceTree = "<group>"; };
+		0723E5EB1F44524E00B4A4F0 /* OMSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSSDK.h; sourceTree = "<group>"; };
+		0723E5ED1F44524E00B4A4F0 /* OMSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSError.h; sourceTree = "<group>"; };
+		0723E5EE1F44524E00B4A4F0 /* OMSError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSError.m; sourceTree = "<group>"; };
+		0723E5EF1F44524E00B4A4F0 /* OMSRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSRequestTool.h; sourceTree = "<group>"; };
+		0723E5F01F44524E00B4A4F0 /* OMSRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSRequestTool.m; sourceTree = "<group>"; };
+		0725D3A91F317FEE008A0B88 /* libOMSSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOMSSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97328C06354B38FBC5807261 /* libPods-OMSSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMSSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D080419CF6759D556757CD /* Pods-OMSSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMSSDK.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-OMSSDK/Pods-OMSSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E4288C8A72EF4D71BB062D /* Pods-OMSSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMSSDK.release.xcconfig"; path = "../Pods/Target Support Files/Pods-OMSSDK/Pods-OMSSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0725D3A61F317FEE008A0B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0723E54E1F444E8600B4A4F0 /* libPods-OMSSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0723E5BA1F44524E00B4A4F0 /* OMSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0723E5EB1F44524E00B4A4F0 /* OMSSDK.h */,
+				0723E5BB1F44524E00B4A4F0 /* Api */,
+				0723E5BE1F44524E00B4A4F0 /* Category */,
+				0723E5D11F44524E00B4A4F0 /* Common */,
+				0723E5D51F44524E00B4A4F0 /* Core */,
+				0723E5D81F44524E00B4A4F0 /* Message */,
+				0723E5D91F44524E00B4A4F0 /* Model */,
+				0723E5E21F44524E00B4A4F0 /* NetWork */,
+				0723E5EC1F44524E00B4A4F0 /* Utils */,
+			);
+			path = OMSSDK;
+			sourceTree = "<group>";
+		};
+		0723E5BB1F44524E00B4A4F0 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				0723E5BC1F44524E00B4A4F0 /* OMSLogApi.h */,
+				0723E5BD1F44524E00B4A4F0 /* OMSLogApi.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		0723E5BE1F44524E00B4A4F0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0723E5BF1F44524E00B4A4F0 /* NSData+OMSParameter.h */,
+				0723E5C01F44524E00B4A4F0 /* NSData+OMSParameter.m */,
+				0723E5C11F44524E00B4A4F0 /* NSDictionary+OMSJSON.h */,
+				0723E5C21F44524E00B4A4F0 /* NSDictionary+OMSJSON.m */,
+				0723E5C31F44524E00B4A4F0 /* NSDictionary+OMSParameter.h */,
+				0723E5C41F44524E00B4A4F0 /* NSDictionary+OMSParameter.m */,
+				0723E5C51F44524E00B4A4F0 /* NSObject+OMSModelUtils.h */,
+				0723E5C61F44524E00B4A4F0 /* NSObject+OMSModelUtils.m */,
+				0723E5C71F44524E00B4A4F0 /* NSString+OMSCoder.h */,
+				0723E5C81F44524E00B4A4F0 /* NSString+OMSCoder.m */,
+				0723E5C91F44524E00B4A4F0 /* NSString+OMSData.h */,
+				0723E5CA1F44524E00B4A4F0 /* NSString+OMSData.m */,
+				0723E5CB1F44524E00B4A4F0 /* NSString+OMSJSON.h */,
+				0723E5CC1F44524E00B4A4F0 /* NSString+OMSJSON.m */,
+				0723E5CD1F44524E00B4A4F0 /* NSString+OMSRegex.h */,
+				0723E5CE1F44524E00B4A4F0 /* NSString+OMSRegex.m */,
+				0723E5CF1F44524E00B4A4F0 /* NSString+OMSSecurity.h */,
+				0723E5D01F44524E00B4A4F0 /* NSString+OMSSecurity.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0723E5D11F44524E00B4A4F0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0723E5D21F44524E00B4A4F0 /* OMSDefine.h */,
+				0723E5D31F44524E00B4A4F0 /* OMSMacro.h */,
+				0723E5D41F44524E00B4A4F0 /* OMSSDK_PrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0723E5D51F44524E00B4A4F0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0723E5D61F44524E00B4A4F0 /* OMSSocketStack.h */,
+				0723E5D71F44524E00B4A4F0 /* OMSSocketStack.m */,
+				07161A4A1F454640009E6613 /* OMSDeviceCenter.h */,
+				07161A4B1F454640009E6613 /* OMSDeviceCenter.m */,
+				07161A4C1F454640009E6613 /* OMSKeyChainStore.h */,
+				07161A4D1F454640009E6613 /* OMSKeyChainStore.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0723E5D81F44524E00B4A4F0 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0723E5D91F44524E00B4A4F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0723E5DA1F44524E00B4A4F0 /* OMSContent.h */,
+				0723E5DB1F44524E00B4A4F0 /* OMSContent.m */,
+				0723E5DC1F44524E00B4A4F0 /* OMSHead.h */,
+				0723E5DD1F44524E00B4A4F0 /* OMSHead.m */,
+				0723E5DE1F44524E00B4A4F0 /* OMSMessage.h */,
+				0723E5DF1F44524E00B4A4F0 /* OMSMessage.m */,
+				0723E5E01F44524E00B4A4F0 /* OMSServerItem.h */,
+				0723E5E11F44524E00B4A4F0 /* OMSServerItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0723E5E21F44524E00B4A4F0 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				0723E5E31F44524E00B4A4F0 /* OMSConfiguration.h */,
+				0723E5E41F44524E00B4A4F0 /* OMSConfiguration.m */,
+				0723E5E51F44524E00B4A4F0 /* OMSHttpRequestAPI.h */,
+				0723E5E61F44524E00B4A4F0 /* OMSHttpRequestAPI.m */,
+				0723E5E71F44524E00B4A4F0 /* OMSResponseSerialization.h */,
+				0723E5E81F44524E00B4A4F0 /* OMSResponseSerialization.m */,
+				0723E5E91F44524E00B4A4F0 /* OMSSocketApi.h */,
+				0723E5EA1F44524E00B4A4F0 /* OMSSocketApi.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		0723E5EC1F44524E00B4A4F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0723E5ED1F44524E00B4A4F0 /* OMSError.h */,
+				0723E5EE1F44524E00B4A4F0 /* OMSError.m */,
+				0723E5EF1F44524E00B4A4F0 /* OMSRequestTool.h */,
+				0723E5F01F44524E00B4A4F0 /* OMSRequestTool.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0725D3A01F317FEE008A0B88 = {
+			isa = PBXGroup;
+			children = (
+				0723E5BA1F44524E00B4A4F0 /* OMSSDK */,
+				0725D3AA1F317FEE008A0B88 /* Products */,
+				B6C59E05E2A9E559705634F4 /* Pods */,
+				E448B9E65AB022CAE20AE08F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0725D3AA1F317FEE008A0B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0725D3A91F317FEE008A0B88 /* libOMSSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C59E05E2A9E559705634F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9D080419CF6759D556757CD /* Pods-OMSSDK.debug.xcconfig */,
+				F9E4288C8A72EF4D71BB062D /* Pods-OMSSDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E448B9E65AB022CAE20AE08F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97328C06354B38FBC5807261 /* libPods-OMSSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0723E54F1F44501700B4A4F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07161A4F1F454640009E6613 /* OMSDeviceCenter.h in Headers */,
+				07161A511F454640009E6613 /* OMSKeyChainStore.h in Headers */,
+				0723E61F1F4457C900B4A4F0 /* OMSSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0725D3A81F317FEE008A0B88 /* OMSSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0725D3B21F317FEE008A0B88 /* Build configuration list for PBXNativeTarget "OMSSDK" */;
+			buildPhases = (
+				ADCD2D5945002AC77B68250A /* [CP] Check Pods Manifest.lock */,
+				0725D3A51F317FEE008A0B88 /* Sources */,
+				0725D3A61F317FEE008A0B88 /* Frameworks */,
+				0725D3A71F317FEE008A0B88 /* CopyFiles */,
+				9277711C80B615A1DC6ED56C /* [CP] Copy Pods Resources */,
+				0723E54F1F44501700B4A4F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMSSDK;
+			productName = OMSSDK;
+			productReference = 0725D3A91F317FEE008A0B88 /* libOMSSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0725D3A11F317FEE008A0B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sunniwell;
+				TargetAttributes = {
+					0725D3A81F317FEE008A0B88 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9RCT3PTK7P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0725D3A41F317FEE008A0B88 /* Build configuration list for PBXProject "OMSSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0725D3A01F317FEE008A0B88;
+			productRefGroup = 0725D3AA1F317FEE008A0B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0725D3A81F317FEE008A0B88 /* OMSSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9277711C80B615A1DC6ED56C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OMSSDK/Pods-OMSSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCD2D5945002AC77B68250A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0725D3A51F317FEE008A0B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0723E6201F4457DF00B4A4F0 /* OMSLogApi.m in Sources */,
+				0723E61E1F44524E00B4A4F0 /* OMSRequestTool.m in Sources */,
+				0723E5F81F44524E00B4A4F0 /* NSDictionary+OMSParameter.m in Sources */,
+				0723E60B1F44524E00B4A4F0 /* OMSContent.m in Sources */,
+				0723E6021F44524E00B4A4F0 /* NSString+OMSRegex.m in Sources */,
+				0723E6091F44524E00B4A4F0 /* OMSSocketStack.m in Sources */,
+				0723E6151F44524E00B4A4F0 /* OMSHttpRequestAPI.m in Sources */,
+				0723E6131F44524E00B4A4F0 /* OMSConfiguration.m in Sources */,
+				07161A521F454640009E6613 /* OMSKeyChainStore.m in Sources */,
+				0723E6001F44524E00B4A4F0 /* NSString+OMSJSON.m in Sources */,
+				0723E5FC1F44524E00B4A4F0 /* NSString+OMSCoder.m in Sources */,
+				0723E5F61F44524E00B4A4F0 /* NSDictionary+OMSJSON.m in Sources */,
+				0723E60D1F44524E00B4A4F0 /* OMSHead.m in Sources */,
+				0723E6041F44524E00B4A4F0 /* NSString+OMSSecurity.m in Sources */,
+				0723E5FA1F44524E00B4A4F0 /* NSObject+OMSModelUtils.m in Sources */,
+				07161A501F454640009E6613 /* OMSDeviceCenter.m in Sources */,
+				0723E5FE1F44524E00B4A4F0 /* NSString+OMSData.m in Sources */,
+				0723E5F41F44524E00B4A4F0 /* NSData+OMSParameter.m in Sources */,
+				0723E6191F44524E00B4A4F0 /* OMSSocketApi.m in Sources */,
+				0723E60F1F44524E00B4A4F0 /* OMSMessage.m in Sources */,
+				0723E6111F44524E00B4A4F0 /* OMSServerItem.m in Sources */,
+				0723E61C1F44524E00B4A4F0 /* OMSError.m in Sources */,
+				0723E6171F44524E00B4A4F0 /* OMSResponseSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0725D3B01F317FEE008A0B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(OBJROOT)/OMSSDK/Common/MOSSDK_PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
+			};
+			name = Debug;
+		};
+		0725D3B11F317FEE008A0B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(OBJROOT)/OMSSDK/Common/MOSSDK_PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0725D3B31F317FEE008A0B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D080419CF6759D556757CD /* Pods-OMSSDK.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RCT3PTK7P;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = OMSSDK/Common/OMSSDK_PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0725D3B41F317FEE008A0B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E4288C8A72EF4D71BB062D /* Pods-OMSSDK.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RCT3PTK7P;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = OMSSDK/Common/OMSSDK_PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0725D3A41F317FEE008A0B88 /* Build configuration list for PBXProject "OMSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0725D3B01F317FEE008A0B88 /* Debug */,
+				0725D3B11F317FEE008A0B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0725D3B21F317FEE008A0B88 /* Build configuration list for PBXNativeTarget "OMSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0725D3B31F317FEE008A0B88 /* Debug */,
+				0725D3B41F317FEE008A0B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0725D3A11F317FEE008A0B88 /* Project object */;
+}
